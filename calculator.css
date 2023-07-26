@@ -1,0 +1,55 @@
+.center {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+#result {
+    display: none;
+    text-align: center;
+}
+
+#option {
+    background-color: orange;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+}
+
+#input {
+    padding: 20px;
+}
+
+div > button {
+    height: 35px;
+    width: 100px;
+    font-size: medium;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: red;
+}
+
+button:hover {
+    height:40px;
+    width:120px;
+    background-color: greenyellow;
+    font-weight: bolder;
+    font-size: large;
+}
+
+input {
+    font-size: medium;
+}
+
+label {
+    width: 150px;
+    font-size: medium;
+    text-align: left;
+    display: inline-block;
+}
+
+body {
+    border: 5px solid black;
+}
